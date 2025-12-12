@@ -2,9 +2,7 @@
   "name": "zenn-content",
   "version": "1.0.0",
   "description": "このリポジトリは、Zennの記事を管理するためのリポジトリです。",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "markdownlint-cli2 \"**/*.md\"",
     "textlint": "textlint articles/**/*.md"
   },
@@ -13,9 +11,8 @@
     "url": "git+https://github.com/iririn1998/zenn-content.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "iririn1998",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/iririn1998/zenn-content/issues"
   },
