@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "markdownlint-cli2 \"**/*.md\""
+    "lint": "markdownlint-cli2 \"**/*.md\"",
+    "textlint": "textlint articles/**/*.md"
   },
   "repository": {
     "type": "git",
