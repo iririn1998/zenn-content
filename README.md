@@ -4,6 +4,12 @@
 
 このリポジトリは、Zennの記事を管理するためのリポジトリです。
 
+## CLIをアップデート
+
+```bash
+npm install zenn-cli@latest
+```
+
 ## 参考資料
 
 - [アカウントにGitHubリポジトリを連携してZennのコンテンツを管理する](https://zenn.dev/zenn/articles/connect-to-github)
