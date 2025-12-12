@@ -4,4 +4,3 @@
   },
   "ignores": [".git", "node_modules", ".husky"]
 }
-
