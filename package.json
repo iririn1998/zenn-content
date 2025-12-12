@@ -4,7 +4,7 @@
   "description": "このリポジトリは、Zennの記事を管理するためのリポジトリです。",
   "scripts": {
     "lint": "markdownlint-cli2 \"**/*.md\"",
-    "textlint": "textlint articles/**/*.md"
+    "textlint": "sh -c 'files=$(find articles -name \"*.md\" -type f 2>/dev/null); if [ -n \"$files\" ]; then echo \"$files\" | xargs textlint; else echo \"No markdown files found in articles directory\"; fi'"
   },
   "repository": {
     "type": "git",
