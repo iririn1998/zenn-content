@@ -4,7 +4,21 @@
 
 このリポジトリは、Zennの記事を管理するためのリポジトリです。
 
-## CLIをアップデート
+## 使い方
+
+### 記事を作成
+
+```bash
+npx zenn new:article
+```
+
+### プレビューする
+
+```bash
+npx zenn preview
+```
+
+### CLIをアップデート
 
 ```bash
 npm install zenn-cli@latest
