@@ -4,7 +4,8 @@
   "description": "このリポジトリは、Zennの記事を管理するためのリポジトリです。",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "markdownlint-cli2 \"**/*.md\""
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,9 @@
   "homepage": "https://github.com/iririn1998/zenn-content#readme",
   "dependencies": {
     "zenn-cli": "^0.2.10"
+  },
+  "devDependencies": {
+    "markdownlint-cli2": "^0.20.0",
+    "markdownlint-cli2-formatter-pretty": "^0.0.9"
   }
 }
