@@ -4,7 +4,8 @@
     "comments": true,
     "allowlist": {
       "allow": [
-        "/^::::/m"
+        "/^::::/m",
+        "厳密等価演算子"
       ]
     }
   },
